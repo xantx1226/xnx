@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+            }
+        }
+.nav-container {
+	background-image: url(pht/biaoshiBar/biaoshilan.png);
+	display: flex;
+    background-repeat:no-repeat;
+	height:135px;
+	background-position: center;
+	border:2px solid #ccc;
+	box-sizing: border-box;
+	
+}
+.nav-EV{
+            width: 5%;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            padding: 10px;
+	        margin-left:30%;
+            box-sizing: border-box;
+	        overflow: hidden;
+}
+.nav-EV img{
+	  margin-top:50%;
+	  width: 100%; /* 图片宽度占据父元素的100% */
+    height: auto;
+}
+.nav-EV:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-HV{
+	        width: 5%;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+	overflow: hidden;}
+.nav-HV img{
+	width: 100%; /* 图片宽度占据父元素的100% */
+    height: auto;
+	 margin-top:50%;
+}
+.nav-HV:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-Ecar{
+	width:5%;
+	margin:0 auto;
+	border: 2px solid #ccc;
+	padding:10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	}
+.nav-Ecar img{
+	margin-top:50%;
+	width: 100%; /* 图片宽度占据父元素的100% */
+    height: auto;
+}
+.nav-Ecar:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-SUV{
+	width:5%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+}
+.nav-SUV img{
+	margin-top:50%;
+	width: 100%; /* 图片宽度占据父元素的100% */
+    height: auto;
+}
+.nav-SUV:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-MPV{
+	width:5%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+}
+.nav-MPV:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-MPV img{
+	margin-top:50%;
+	width: 100%; /* 图片宽度占据父元素的100% */
+    height: auto;
+}
+.nav-sportcarr{
+	width:5%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;}
+.nav-sportcarr img{
+	margin-top:50%;
+	width: 100%; /* 图片宽度占据父元素的100% */
+	height: auto;}
+.nav-sportcarr:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.nav-pickup{
+	width:5%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;}
+.nav-pickup img{
+	margin-top:50%;
+	width: 100%; /* 图片宽度占据父元素的100% */
+	height: auto;}
+.nav-pickup:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+.search-item{
+	width:17%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+}
+/*.search-item img{
+	padding-bottom: 3%;
+	width: 100%; /* 图片宽度占据父元素的100% 
+	height: auto;}*/
+ .search-item:hover img{
+	 transform: scale(1.1);/* 鼠标悬停时放大*/ 
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%);  /*鼠标悬停时改变颜色 */
+}
+.search-icon{
+	width:20%;
+	height: 40%;
+	border: 2px solid #ccc;
+	margin-top: 17%;
+	margin-left: 10%;
+    box-sizing: border-box;
+	overflow: hidden;
+}
+.search-icon img{
+	
+	width: 100%; /* 图片宽度占据父元素的100% */
+	height: auto;
+	
+}
+.search-box{
+	width:45%;
+	height: 35%;
+	margin-top: 17%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+	transition: width 0.4s ease-in-out;
+}
+.search-button{
+	width:22%;
+	height: 35%;
+	margin-top: 17%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+	transition: width 0.4s ease-in-out;;
+}
+/*登录按钮*/
+.login-trigger{
+	width:5%;
+	height: 100%;
+	border: 2px solid #ccc;
+    box-sizing: border-box;
+	overflow: hidden;
+	margin-left: 1%;
+	transition: width 0.4s ease-in-out;;
+}
+.login-trigger img{
+	margin-top: 46%;
+	width:100%;
+	height: 50%;
+}
+.login-trigger img:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 2%;
+	
+}
+.modal-content {
+    background-image: url('pht/biaoshiBar/denglubei.jpg'); /* 设置背景图片 */
+      background-size: cover; /* 背景图片全覆盖 */
+    background-position: center; /* 背景图片居中 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    max-width: 800px;
+    border-radius: 10px;
+	max-height: 500px;
+	height: 27%;
+    color: white; /* 根据背景图片调整文字颜色 */
+}
+.modal-content img{
+	width:100%;
+	height: 100%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#login-form-container, #register-form-container {
+    text-align: center;
+}
+
+#login-form{
+	width:60%;
+	margin-left: 30%;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color:black;
+    color: green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+/*下搜索栏*/
+.undersearchBar{
+	background-image:url(pht/biaoshiBar/xiasousuo.png);
+	position: fixed;
+	display: flex;
+    flex-direction: column;
+	background-size:100%;
+	margin-left: 12%;
+}
+.uhdersearchBar img{
+	width:80%;
+	height: 20%;
+}
+.carsel{
+	width:100%;
+}
+.carsel img{
+	width:70%;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#xinnengbang{
+	margin-top: 750px;
+	margin-right: 100px;
+	width:1259px;
+	height:400px;
+	background:url(pht/xinnengbang/xinnengbangzhuti.png);
+	background-repeat: no-repeat;
+	 border-radius: 25px; /* 圆角矩形边框 */
+      
+}
+.nav-bar-xinnengbang {
+	       
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            color: black;
+            position: relative;
+	    
+        }
+        .brand-logo-xinnengbang {
+            margin-right: 20px;
+        }
+        .nav-item-xinnengbang {
+            margin: 0 15px;
+            cursor: pointer;
+            position: relative;
+        }
+        .highlight-bar-xinnengbang {
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            height: 2px;
+            width: 100%;
+            background-color: green;
+            transition: visibility 0.3s, opacity 0.3s;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .nav-item-xinnengbang.active .highlight-bar-xinnengbang {
+            visibility: visible;
+            opacity: 1;
+        }
+        .underline-xinnengbang {
+            position: absolute;
+            bottom: 0;
+            height: 2px;
+            background-color: cadetblue;
+            transition: all 0.3s ease;
+        }
+        .submenu-wrapper-xinnengbang {
+            display: none;
+            width: 1259px;
+            height: 400px;
+            padding:10px;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: -60px;
+			border-radius: 25px; /* 圆角矩形边框 */
+        }
+        .submenu-wrapper-xinnengbang.active {
+            display: flex;
+        }
+        .submenu-content-xinnengbang {
+            width: 270px;
+            height: 300px;
+           
+        }
+        .submenu-content-xinnengbang img {
+			object-fit: cover; /* 确保图片适应容器 */
+            width: 230px;
+            height: 300px;
+            object-fit: cover;
+        }

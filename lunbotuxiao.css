@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+#lunbotuxiao{
+	color:blue;
+	width:300px;
+    height: 550px;
+	margin-top: 30px;
+	margin-right:44.5px;
+}
+  #carousel1 {
+            width: 300px; /* 轮播图区域的宽度 */
+            height: 150px; /* 轮播图区域的高度 */
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+            border-radius: 25px; /* 圆角矩形边框 */
+            border: 2px solid black; /* 黑色边框 */
+        }
+
+        .carousel-images1 {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: calc(300px * 4); /* 4张图片的总宽度 */
+        }
+
+        .carousel-images1 img {
+            width: 300px; /* 每张图片的宽度 */
+            height: 150px; /* 每张图片的高度 */
+            border-radius: 15px; /* 圆角效果 */
+        }
+
+        .carousel-button1 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        #prev1 {
+            left: 10px;
+        }
+
+        #next1 {
+            right: 10px;
+        }
+
+        .carousel-dots1 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+        .carousel-dots1 div {
+            height: 10px;
+            width: 10px;
+            background-color: #A4E2C6;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .carousel-dots1 .active {
+            background-color: black;
+        }
+
+#lunbutu3{
+	width:300px;
+    height: 150px;
+}
+ #carousel2 {
+            width: 300px; /* 轮播图区域的宽度 */
+            height: 150px; /* 轮播图区域的高度 */
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+            border-radius: 15px; /* 圆角矩形边框 */
+            
+        }
+
+        .carousel-images2 {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: calc(300px * 4); /* 4张图片的总宽度 */
+        }
+
+        .carousel-images2 img {
+            width: 300px; /* 每张图片的宽度 */
+            height: 150px; /* 每张图片的高度 */
+            border-radius: 15px; /* 圆角效果 */
+        }
+
+        .carousel-button2 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        #prev2 {
+            left: 10px;
+        }
+
+        #next2 {
+            right: 10px;
+        }
+
+        .carousel-dots2 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+        .carousel-dots2 div {
+            height: 10px;
+            width: 10px;
+            background-color: greenyellow;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .carousel-dots2 .active {
+            background-color: white;
+        }

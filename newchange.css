@@ -1,0 +1,424 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	/*background-image:url(pht/backgroud/1.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#zhuti{
+	width:1259px;
+	height:2660px;
+	
+}
+#daohangbeijing{
+	width:1259px; height:100px; float:left; background:url("pht/biaoshiBar/biaoshilan.png");background-repeat: no-repeat;}
+#daohangzuocekongge{
+	width: 315px;height: 100px;float: left;}
+#biaoshi{
+	width:1259px;
+	height:700px;
+	float:left;
+}
+#daer{
+	
+	width:1259px;
+	height:600px;
+	margin-top: 0px;
+	float: left;
+}
+#EU{
+	width: 60px;height: 80px;float: left;margin-top: 13PX;margin-left: 8PX;}
+#HU{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 15PX;}
+#Ecar{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 15PX;}
+#SUV{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 15PX;}
+#MPV{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 17PX;}
+#sportcar{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 15PX;}
+#pickup{
+	width: 60px;height: 100px;float: left;margin-top: 13PX;margin-left: 17PX;}
+#sousuo{
+	width: 250px;height: 100px;float: left;margin-left:0PX;margin-top:6px; }
+#EU:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#HU:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#Ecar:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#SUV:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#MPV:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#sportcar:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#pickup:hover img{
+	 transform: scale(1.2); /* 鼠标悬停时放大 */
+	 filter: sepia(100%) hue-rotate(20deg) saturate(100%); /* 鼠标悬停时改变颜色 */
+}
+#search-box {
+			background-color:#DAF3E7;
+	        height:55px;
+	        width:225px;
+	        margin-left: 71.65%;
+			margin-top: 23px;
+	        border-radius:20px;
+			}
+
+.search-bar{
+	max-width:225px;
+	max-height: 53px;
+	padding:0 20px;
+	display: flex;
+	
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    color: #081515;
+    width: 128px;
+	height: 14px;
+	margin-left:-20px;
+	
+}
+.search-input :focus{
+	background-color:hsla(150,50%,90%,1.00);
+		
+}
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 48px;
+    height: 48px;
+	float: left;
+}
+.search-button:hover img{
+	 transform: scale(1.1); /* 鼠标悬停时放大 */
+}
+.trigger-button {
+    width: 100px; /* 根据需要调整大小 */
+    cursor: pointer;
+}
+#loginTrigger{
+	width:60px;
+	height: 60px;
+	margin-left: 320px;
+	float: left;
+	margin-top: -55px;
+}
+#loginTrigger:hover {
+	transform: scale(1.2); /* 鼠标悬停时放大 */
+	 
+}
+.search-button{
+	
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.modal-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"], input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registerLink, #loginLink {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#navbar {
+    width:180px; /* 设置导航栏宽度 */
+	height: 593px;
+    background-image: url('pht/xiabiaoshiBar/xiabiaoshizhuti.png'); /* 导航栏背景图片 */
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* 使导航项竖直排列 */
+    align-items: center;
+    padding: 20px 0; /* 导航栏内边距 */
+   /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  添加阴影效果 */
+	
+	margin-left: 30px;
+}
+
+.nav-item {
+    margin: 10px 0; /* 每个导航项的上下外边距 */
+	
+}
+
+.nav-item img {
+    width: 120px; /* 导航图标宽度 */
+    height:120px; /* 导航图标高度 */
+    transition: transform 0.3s ease; /* 鼠标悬停效果的过渡 */
+}
+
+.nav-item img:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+	/*box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  添加阴影效果 */
+}
+#sidebar {
+    width: 1000px; /* 侧边区域的宽度 */
+    background-image: url(pht/sheji/zhuji.png);
+    height: 600px; /* 占满整个视口高度 */
+    background-size: cover;
+	float:none;
+    display: flex;
+	margin-left: 220px;
+	margin-top:-620px;
+}
+/*轮播图大*/
+#carousel {
+            width: 480px; /* 轮播图区域的宽度 */
+            height: 360px; /* 轮播图区域的高度 */
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+            border-radius: 15px; /* 圆角矩形边框 */
+            border: 2px solid black; /* 黑色边框 */
+	        margin-left: 35px;
+	        margin-top:30px; 
+	        
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: calc(480px * 7);  /*7张图片的总宽度 */
+        }
+
+        .carousel-images img {
+            width: 480px; /* 每张图片的宽度 */
+            height:360px; /* 每张图片的高度 */
+			object-fit: cover; /* 确保图片适应容器 */
+            border-radius: 15px; /* 圆角效果 */
+			display: block;
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+
+        .carousel-dots {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+        .carousel-dots div {
+            height: 10px;
+            width: 10px;
+            background-color: #A4E2C6;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .carousel-dots .active {
+            background-color: white;
+        }
+
+/*登录页面*/
+/* 样式用于隐藏和显示弹出窗口 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        /* 弹出窗口内容样式 */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 300px;
+            position: relative;
+        }
+
+        /* 关闭按钮样式 */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 表单元素样式 */
+        .login-form, .register-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-form input, .register-form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .submit-button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+
+        span {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+#dajiaerji{
+	width:600px;
+	margin-right:60px;
+	flex-direction: column; /* 使导航项竖直排列 */
+	
+}
+/*二级菜单*/
+#erji{
+	width:500px;
+	height:200px;
+	
+	margin-left: 30px;
+}
+#menu {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+	background-color:hsla(0,0%,100%,1.00);
+	border-radius: 5px; /* 圆角矩形边框 */
+}
+
+#menu-items {
+    display: flex;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+#indicator {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+	border-radius: 25px; /* 圆角矩形边框 */
+    width: 0;
+    background-color: #A4E2C6;
+    transition: 0.3s;
+}
+
+#submenu {
+    display: flex;
+    margin-top: 20px;
+}
+
+.submenu-content {
+    display: none;
+}
+
+.submenu-content img {
+    max-width: 50px;
+    margin-right: 10px;
+    transition: transform 0.3s; /* 添加过渡效果 */
+}
+
+.submenu-content img:hover {
+    transform: scale(1.2); /* 悬停时放大 */
+}
